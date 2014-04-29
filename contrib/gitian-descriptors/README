@@ -44,15 +44,15 @@ Once you've got the right hardware and software:
     git pull
     cd ../gitian-builder
     git pull
-    ./bin/gbuild --commit CryptoPowers=HEAD ../CryptoPowers/contrib/gitian-descriptors/gitian.yml
+    ./bin/gbuild --commit kimdotcoin=HEAD ../kimdotcoin/contrib/gitian-descriptors/gitian.yml
 
     # Build Win32 dependencies: (only needs to be done once, or when dependency versions change)
-    ./bin/gbuild --commit CryptoPowers=HEAD ../CryptoPowers/contrib/gitian-descriptors/boost-win32.yml
-    ./bin/gbuild --commit CryptoPowers=HEAD ../CryptoPowers/contrib/gitian-descriptors/deps-win32.yml
-    ./bin/gbuild --commit CryptoPowers=HEAD ../CryptoPowers/contrib/gitian-descriptors/qt-win32.yml
+    ./bin/gbuild --commit kimdotcoin=HEAD ../kimdotcoin/contrib/gitian-descriptors/boost-win32.yml
+    ./bin/gbuild --commit kimdotcoin=HEAD ../kimdotcoin/contrib/gitian-descriptors/deps-win32.yml
+    ./bin/gbuild --commit kimdotcoin=HEAD ../kimdotcoin/contrib/gitian-descriptors/qt-win32.yml
 
     # Build Win32 release:
-    ./bin/gbuild --commit CryptoPowers=HEAD ../CryptoPowers/contrib/gitian-descriptors/gitian-win32.yml
+    ./bin/gbuild --commit kimdotcoin=HEAD ../kimdotcoin/contrib/gitian-descriptors/gitian-win32.yml
 
 ---------------------
 
