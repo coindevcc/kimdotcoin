@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = GroinCoin-qt
-macx:TARGET = "kimdotcoin-Qt"
+TARGET = kimdotcoin-qt
+macx:TARGET = "kimdotcoin-qt"
 VERSION = 1.0.0.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
